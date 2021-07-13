@@ -1,13 +1,13 @@
-class Articulos{
-    constructor(nombre, precio){
-        this.nombre = nombre;
-        this.precio = parseFloat(precio);
-        this.producto = producto;
-    }
+let miarray = [];
+let espacioNombres = 4;
+ 
+
+for(let i = 0; i < espacioNombres ; i++) {
+    let nombre = prompt("Ingrese un producto");
+    miarray.push(nombre);
+    console.log(miarray);
+    const arreglosort = miarray.sort();
+    console.log(arreglosort);
 }
-
-const nombre = prompt("ingrese un nombre");
-const precio = number(prompt("ingrese su precio"));
-
 
 
